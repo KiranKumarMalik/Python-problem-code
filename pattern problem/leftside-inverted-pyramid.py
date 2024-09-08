@@ -1,12 +1,13 @@
-#         *
-#         * *
-#         * * *
-#         * * * *
-#         * * * * *
-#         * * * *
-#         * * *
-#         * *
-#         *
+# To print the left sided inverted pyramid pattern
+#              *                               *
+#              * *                             * *
+#              * * *                           * * *
+#              * * * *                         * * * *
+#              * * * * *    +              =   * * * * *
+#                                * * * *       * * * *
+#                                * * *         * * *
+#                                * *           * *
+#                                *             *
 
 
 n=int(input("Enter the number of rows: "))
