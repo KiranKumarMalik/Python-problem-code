@@ -16,3 +16,4 @@ for i in range(n):
     for right_triangle_symbol in range(i): # symbol is the number of "*" symbol upto i (when i=0 then symbol=0)
         print("*", end=" ")
     print()
+    
