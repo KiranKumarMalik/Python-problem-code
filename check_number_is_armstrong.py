@@ -1,6 +1,8 @@
+# Write a python program to check an input number is wheather armstrong number or not
+#armstrong: num=153, so digit is 3 then (1)**3, (5)**3, (3)**3
 num=int(input("Enter the number: "))
 copy=num         # storing the value of num in a duplicate variable
-res=0
+res=0                                #******************************************** ITERATION **********************************************
 power=len(str(num))                  # if num=153 then number of digit=3, so (1)**3, (5)**3, (3)**3
 while num>0:                         #iteration:  1st: num=153               2nd: num=15                3rd: num=1
     lastdigit=num%10                 #                 lastdigit=153%10=3         lastdigit=15%10=5          lastdigit=1%10=1
