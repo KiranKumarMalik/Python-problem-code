@@ -1,4 +1,10 @@
-num = 5
+# Write a python program for following pattern
+#             *
+#            * *
+#           * * *
+#            * *
+#             *
+num = int(input("Enter the odd row number: "))
 spaces = num // 2
 stars = 1
 for row in range(num):
