@@ -1,4 +1,4 @@
-# Write a Python program to check whether a number is prime or not using for loop.
+# Write a Python program to check whether a number is Composite or not using for loop.
 
 num=int(input("Enter an Integer number: "))
 countfactor=0

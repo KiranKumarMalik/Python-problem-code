@@ -12,8 +12,8 @@ while num > 0:
     res=res*10+ld
     num=num//10
 if res!=dup:
-    if num>1:
-        for val in range(2, num//2+1):
+    if dup>1:
+        for val in range(2, dup//2+1):
             if num%val==0:
                 print(f"{num} is not EMIRP number")
                 break
