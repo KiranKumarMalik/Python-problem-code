@@ -1,7 +1,7 @@
 # Write a python program to check the input number is Strong or not
 #Strong number: num=145 1!+4!+5!=num then it is a strong number
 
-num=int(input("Enter the numebr: "))
+num=int(input("Enter the number: "))
 dup=num                            # If num=145
 res=0                              #****************************************** ITERATION ******************************************
 while num>0:                       #  1st: 145>0 TRUE          
