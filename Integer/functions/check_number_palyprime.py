@@ -1,4 +1,5 @@
 # Write a function to check the number is Palyprime number or not
+# Palyprime: Palindrome and also Prime
 
 def Palyprime(num,dup,val=1,count=0,res=0):
     dup=num
