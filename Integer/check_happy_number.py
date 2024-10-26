@@ -12,4 +12,4 @@ while num>9:                          #     while 13>9: TRUE
 if num==1 or num==7:                  #    
     print(f"{dup} is a Happy Number") #********************************** num=1    =)1=1(Happy number) ************************************
 else:
-    print(f"{dup} is not a Happy Number")
+    print(f"{dup} is not a Happy Number") 
