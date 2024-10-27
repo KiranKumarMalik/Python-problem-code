@@ -1,0 +1,1 @@
+print(list(map(lambda val:val**2,[2,3,4])))
