@@ -1,0 +1,5 @@
+# Write a python program to print the even numbers in given range using filter function
+def Even(num):
+    if num%2==0:
+        return num
+print(list(filter(Even,range(10,21))))
