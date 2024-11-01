@@ -29,7 +29,7 @@ print(f"{num} is a Palyprime number" if Palyprime(num,num)==True else f"{num} is
 #         for val in range(2,num//2+1):
 #             if num%val==0:
 #                 return False
-#             return True
+#         return True
 # def Reverse(num,res=0):
 #     while num != 0:
 #         lastDigit=num%10
