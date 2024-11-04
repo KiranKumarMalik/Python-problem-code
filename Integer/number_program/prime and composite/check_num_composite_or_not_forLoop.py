@@ -10,3 +10,16 @@ if countfactor > 2: # countfactor>2 means the number is divisible by more than 2
     print(f"{num} is a Composite number")
 else:
     print(f"{num} is not a Composite number")
+
+
+# num = int(input("Enter a number: "))
+# count = 0
+# for i in range(1, num + 1):
+#     if num % i == 0:
+#         count += 1
+# if count > 2:
+#     print(f"{num} is a Composite Number")
+# elif count == 2:
+#     print(f"{num} is a Prime Number")
+# else:
+#     print(f"{num} is not a Prime or Composite Number")
