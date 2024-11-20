@@ -8,7 +8,7 @@ def binary_search(L, target):
             least = ind + 1
         elif L[ind] > target:
             high = ind - 1
-        else:
+        elif L[ind] == target:
             return ind  # Return the index if the target is found
     return -1  # Return -1 if the target is not found
 
