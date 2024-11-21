@@ -10,7 +10,6 @@ def binary_search(L, target, least, high):
     else:  # Search in the left half
         return binary_search(L, target, least, ind - 1)
 
-
 L = [3, 5, 7, 8, 31, 333, 420]
 target = 420
 result = binary_search(L, target, 0, len(L) - 1)
