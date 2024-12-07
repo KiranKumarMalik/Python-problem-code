@@ -6,7 +6,7 @@ class Mock():
         self.a=a
     def Method(self):
         print(self.a)
-obj=Mock(6)
+obj=Mock(8)
 print(obj.a)
 obj.Method()
 Mock.Method(obj)
