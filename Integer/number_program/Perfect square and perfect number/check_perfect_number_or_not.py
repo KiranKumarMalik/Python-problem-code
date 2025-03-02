@@ -1,5 +1,5 @@
 # Write a python program to check the number wheather it is perfect number or not
-
+# Exp: num = 6 => 1+2+3=6 => 6 is a perfect number 
 num=int(input("Enter the number: "))    #******************************************* ITERATION **********************************************************
 sum=0                                   # num=6
 for val in range(1,num):                # 1st: val=1           val=2          val=3      val=4           val=5                     out from the for loop
