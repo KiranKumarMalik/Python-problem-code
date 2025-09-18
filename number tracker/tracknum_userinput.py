@@ -10,6 +10,7 @@ Install dependency:
 import phonenumbers
 from phonenumbers import geocoder, carrier, timezone, NumberParseException, PhoneNumberFormat
 
+
 def get_phone_info(number_str, default_region=None, lang='en'):
     """
     Parse a phone number string and return a dictionary with
@@ -44,6 +45,7 @@ def get_phone_info(number_str, default_region=None, lang='en'):
 
     return info
 
+
 def print_info(info):
     if info['error']:
         print(f"Input: {info['input']}  -> Parse error: {info['error']}")
@@ -60,14 +62,11 @@ def print_info(info):
     print(f" Timezones: {', '.join(t) if t else 'N/A'}")
     print("-" * 40)
 
-if __name__ == "__main__":
-    # Example numbers - replace these with numbers you own or have permission to analyze.
-    # Always include leading + and country code where possible.
-    examples = [
-        "+917848051078",   # India (example)
-        "+919148295270",      # local-format example, supply default_region below
-    ]
 
-    for num_str in examples:
-        info = get_phone_info(num_str, default_region="IN", lang='en')  # default_region only used for non + numbers
-        print_info(info)
+if __name__ == "__main__":
+    # Ask the user for phone number input
+    number_str = input("Enter a phone number (with country code, e.g., +919876543210): ").strip()
+
+    # Default region is fixed as None (only used when number has no + prefix)
+    info = get_phone_info(number_str, default_region=None, lang='en')
+    print_info(info)
